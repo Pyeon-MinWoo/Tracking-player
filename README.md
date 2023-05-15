@@ -1,3 +1,2 @@
-# 
-Tracking-player
+# Tracking-player
 추적 시스템을 기반으로 하여 플레이어의 다양한 움직임과 경로를 확인할 수 있는 프로그램
