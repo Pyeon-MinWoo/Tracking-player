@@ -1,12 +1,14 @@
 import cv2
 import math
 
-cap = cv2.VideoCapture('C:/Users/SH/SH-teamPro/data/111.mp4')
+cap = cv2.VideoCapture('C:/Users/pyeonmu/Desktop/test/data/111.mp4')
 tracker = cv2.TrackerKCF_create()
 
 # Select initial bounding box for the player
 ret, frame = cap.read()
 bbox = cv2.selectROI(frame, False)
+
+
 
 # Initialize the tracker
 tracker.init(frame, bbox)
