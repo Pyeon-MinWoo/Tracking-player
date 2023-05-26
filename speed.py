@@ -1,7 +1,7 @@
 import cv2
 import math
 
-cap = cv2.VideoCapture('C:/Users/pyeonmu/Desktop/test/data/111.mp4')
+cap = cv2.VideoCapture('C:\Users\SH\Tracking-player-4\data\111.mp4')
 tracker = cv2.TrackerKCF_create() 
 
 # Select initial bounding box for the player
