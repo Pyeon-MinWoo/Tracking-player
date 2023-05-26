@@ -50,6 +50,7 @@ while True:
     # Merge the fireworks and edges images
     # 불꽃놀이와 가장자리 이미지 병합
     merged = cv2.addWeighted(fireworks, 1, cv2.cvtColor(dilated_edges, cv2.COLOR_GRAY2BGR), 1, 0)
+ 
 
     # Display original and processed frames
     # 원본 및 처리된 프레임 표시
