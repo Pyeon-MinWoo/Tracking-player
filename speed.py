@@ -31,7 +31,7 @@ while True:
         # Draw the bounding box around the player
         # 플레이어 주위에 경계 상자를 그립니다.
         (x, y, w, h) = [int(i) for i in bbox]
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
 
         # Calculate the current position of the player
         # 플레이어의 현재 위치 계산
@@ -52,7 +52,7 @@ while True:
 
         # Display the speed on the frame
         # 프레임에 속도 표시
-        cv2.putText(frame, "Speed: {:.2f} pixels/sec".format(speed), (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        cv2.putText(frame, "Speed: {:.2f} pixels/sec".format(speed), (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
         # Update the previous position and time
         # 이전 위치 및 시간 업데이트
