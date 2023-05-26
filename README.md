@@ -9,3 +9,4 @@
  ![이미지없음](./data/333.png "스크린샷")
  # 3. 출처
  - chat GPT 및 인터넷 적극 활용
+ - https://github.com/mint-lab/cv_tutorial
