@@ -2,9 +2,9 @@ import cv2
 import numpy as np
 
 # Load video
-cap = cv2.VideoCapture('C:/Users/SH/Tracking-player-1/data/111.mp4')
+cap = cv2.VideoCapture('C:/Users/pyeonmu/Desktop/test/data/111.mp4')
 
-# Define color range for fireworks (in this example, red and yellow)
+# Define color range for fireworks
 
 lower_color = np.array([255, 255, 255])
 upper_color = np.array([0, 0, 0])
