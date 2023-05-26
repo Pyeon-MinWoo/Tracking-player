@@ -2,18 +2,18 @@ import cv2
 import numpy as np
 
 # Load video
-cap = cv2.VideoCapture('C:/Users/pyeonmu/Desktop/test/data/111.mp4')
+cap = cv2.VideoCapture('C:/Users/SH/Tracking-player-1/data/111.mp4')
 
 # Define color range for fireworks (in this example, red and yellow)
-# 불꽃놀이의 색상 범위 정의 (이 예에서, 빨간색과 노란색)
+
 lower_color = np.array([255, 255, 255])
 upper_color = np.array([0, 0, 0])
 
 # Define image processing parameters
 # 이미지 처리 매개변수 정의
 blur_kernel_size = (3, 3)
-edge_threshold1 = 50
-edge_threshold2 = 150
+edge_threshold1 = 100
+edge_threshold2 = 200
 canny_aperture_size = 3
 
 # Loop over frames in video
